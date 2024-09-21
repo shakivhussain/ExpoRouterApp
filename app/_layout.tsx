@@ -9,13 +9,22 @@ const RootLayout = () => {
             headerTitle: 'Index Screen',
             headerStyle: {
                 backgroundColor: "blue"
-            },
-            contentStyle: {
-
-                
             }
         }} />
-        <Stack.Screen name='users/[id]' />
+
+        <Stack.Screen name='HomeScreen' options={{
+            headerTitle: 'Home Screen',
+            headerStyle: {
+                backgroundColor: "blue"
+            }
+        }} />
+
+
+        <Stack.Screen name='users/[id]'
+
+            options={{
+                headerTitle: "Users Dynamix Id"
+            }} />
 
     </Stack>
 
