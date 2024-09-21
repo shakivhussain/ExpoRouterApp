@@ -1,32 +1,14 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import { Stack } from 'expo-router'
+import { Stack, Tabs } from 'expo-router'
 
 const RootLayout = () => {
-    return <Stack>
+    return <Tabs>
 
-        <Stack.Screen name='index' options={{
-            headerTitle: 'Index Screen',
-            headerStyle: {
-                backgroundColor: "blue"
-            }
-        }} />
+        <Tabs.Screen name='index' />
+        <Tabs.Screen name='HomeScreen' />
 
-        <Stack.Screen name='HomeScreen' options={{
-            headerTitle: 'Home Screen',
-            headerStyle: {
-                backgroundColor: "blue"
-            }
-        }} />
-
-
-        <Stack.Screen name='users/[id]'
-
-            options={{
-                headerTitle: "Users Dynamix Id"
-            }} />
-
-    </Stack>
+    </Tabs>
 
 }
 
