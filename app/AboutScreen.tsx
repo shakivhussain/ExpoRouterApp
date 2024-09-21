@@ -6,7 +6,7 @@ const AboutScreen = () => {
     return (
         <View>
             <Text>About Screen</Text>
-            <Link href='/Index'>Back</Link>
+            {/* <Link href='/Index'>Back</Link> */}
             <Link href='/users/12'>Goto Users Screen</Link>
         </View>
     )

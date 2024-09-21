@@ -6,7 +6,7 @@ const ContactScreen = () => {
   return (
     <View>
       <Text>Contact Screen</Text>
-      <Link href='/Index'>Back</Link>
+      {/* <Link href='/Index'>Back</Link> */}
     </View>
   )
 }

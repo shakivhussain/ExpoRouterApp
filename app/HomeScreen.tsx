@@ -9,7 +9,7 @@ const HomeScreen = () => {
 
 
             <Text>Home Screen</Text>
-            <Link href='/Index'>Back</Link>
+            {/* <Link href='/Index'>Back</Link> */}
         </View>
     )
 }
